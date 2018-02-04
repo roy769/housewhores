@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.logo{
+  font-family: Molle;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: white;
+   text-shadow:
+   -1px -1px 0 #000,
+    -5px 3px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+     -vendor-animation-duration: 3s;
+      -vendor-animation-delay: 5s;
+      -vendor-animation-iteration-count: infinite;
+}
+.brand{
+  mix-blend-mode: color-dodge;
+}
