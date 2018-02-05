@@ -12,10 +12,11 @@ body {
     -5px 3px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
-     -vendor-animation-duration: 3s;
       -vendor-animation-delay: 5s;
+      -vendor-animation-pause: 15s;
       -vendor-animation-iteration-count: infinite;
 }
 .brand{
   mix-blend-mode: color-dodge;
+  margin-top: 1%;
 }

@@ -8,16 +8,18 @@ class App extends Component {
 {/* 0 */}
         <nav className="navbar navbar-expand-sm navbar-light blue-grey lighten">
           <div className="row">
-            <div className="col">
-              <h1 className="logo animated bounce ">House Whores</h1>
-              <div className= "col">
+            <div className="col animated fadeIn"><img className="animated slideInLeft" src="https://media.giphy.com/media/pAjfVmRiGARfa/giphy.gif"></img>
+          </div>
+            <div className="col animated fadeIn">
+              <h1 className="logo animated bounce infinite ">House Whores</h1>
+              <div className= "col animated fadeIn">
                 <iframe className="loop" title="massive"></iframe>
               </div>
-              <div className="col">
-                <a className="btn btn-success" data-toggle="collapsing" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <div className="col animated fadeIn">
+                <a className="btn animated rollIn btn-success" data-toggle="col animated fadeInlapsing" href="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
        <i class="material-icons">book</i>
    </a>
-   <button className="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+   <button className="btn animated rollIn btn-success" type="button" data-toggle="col animated fadeInlapse" data-target="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
        <i class="material-icons">store</i>
    </button>
  </div>
@@ -27,35 +29,39 @@ class App extends Component {
 {/*1*/}
         <nav className="navbar navbar-expand-sm navbar-light blue-grey lighten-2">
           <div className="row">
-            <div className="col">
-              <h1 className="logo animated flash ">Dj Devin</h1>
-              <div className= "col">
+            <div className="col animated fadeIn">
+              <h1 className="logo animated flash infinite">Dj Devin</h1>
+              <div className= "col animated fadeIn">
                 <iframe className="loop" title="developers"></iframe>
               </div>
-              <div className="col">
-                <a className="btn btn-success" data-toggle="collapsing" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <div className="col animated fadeIn">
+                <a className="btn animated rollIn btn-success" data-toggle="col animated fadeInlapsing" href="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
        <i class="material-icons">book</i>
    </a>
-   <button className="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+   <button className="btn animated rollIn btn-success" type="button" data-toggle="col animated fadeInlapse" data-target="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
        <i class="material-icons">store</i>
    </button>
  </div>
- </div>
+</div>
+<div className="col animated fadeIn"><img  className="animated slideInRight" src="https://media.giphy.com/media/pAjfVmRiGARfa/giphy.gif"></img>
+</div>
 </div>
   </nav>
 {/*1*/}
         <nav className="navbar navbar-expand-sm navbar-light blue-grey lighten-3">
           <div className="row">
-            <div className="col">
-              <h1 className="logo animated pulse ">Willie Funk</h1>
-              <div className= "col">
+            <div className="col animated fadeIn"><img  className=" animated slideInLeft" src="https://media.giphy.com/media/pAjfVmRiGARfa/giphy.gif"></img>
+          </div>
+            <div className="col animated fadeIn">
+              <h1 className="logo animated pulse infinite ">Willie Funk</h1>
+              <div className= "col animated fadeIn">
                 <iframe className="loop" title="sticky"></iframe>
               </div>
-              <div className="col">
-                <a className="btn btn-success" data-toggle="collapsing" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <div className="col animated fadeIn">
+                <a className="btn animated rollIn btn-success" data-toggle="col animated fadeInlapsing" href="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
        <i class="material-icons">book</i>
    </a>
-   <button className="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+   <button className="btn animated rollIn btn-success" type="button" data-toggle="col animated fadeInlapse" data-target="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
        <i class="material-icons">store</i>
    </button>
  </div>
@@ -64,20 +70,26 @@ class App extends Component {
   </nav>
         <nav className="navbar navbar-expand-sm navbar-light blue-grey lighten-4">
           <div className="row">
-            <div className="col">
-              <h1 className="logo animated wobble ">Lino the Sound Guy</h1>
-              <div className= "col">
+            <div className="col animated fadeIn animated fadeIn">
+              <h1 className="logo animated wobble  infinite ">Lino the Sound Guy</h1>
+              <div className= "col animated fadeIn">
                 <iframe className="loop" title="lino"></iframe>
               </div>
-              <div className="col">
-                <a className="btn btn-success" data-toggle="collapsing" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <div className="col animated fadeIn">
+                <a className="btn animated rollIn btn-success" data-toggle="col animated fadeInlapsing" href="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
                 <i class="material-icons"><i class="material-icons">book</i></i>
    </a>
-   <button className="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+   <button className="btn animated rollIn btn-success" type="button" data-toggle="col animated fadeInlapse" data-target="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
        <i class="material-icons">store</i>
+   </button>
+   <button className="btn animated rollIn btn-success" type="button" data-toggle="col animated fadeInlapse" data-target="#col animated fadeInlapseExample" aria-expanded="false" aria-controls="col animated fadeInlapseExample">
+       <i class="material-icons">face</i>
+       <i class="material-icons">book</i>
    </button>
  </div>
  </div>
+ <div className="col animated fadeIn"><img  className="animated slideInRight" src="https://media.giphy.com/media/pAjfVmRiGARfa/giphy.gif"></img>
+</div>
 </div>
   </nav>
 {/*1*/}
